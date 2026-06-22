@@ -26,7 +26,7 @@ const int CAM_TRIG_PIN = 4; // Kích hoạt ESP32-CAM chụp ảnh
 // ================= NGƯỠNG BẢO VỆ AN TOÀN =================
 const float MAX_CURRENT = 15.0; // Ampe
 const float MAX_TEMP    = 75.0; // Độ C
-const int   MAX_SMOKE   = 1300; // ADC value
+const int   MAX_SMOKE   = 500; // ADC value
 
 // ================= KHỞI TẠO ĐỐI TƯỢNG =================
 PZEM004Tv30 pzem(Serial2, 16, 17); // UART2 (RX=16, TX=17)
